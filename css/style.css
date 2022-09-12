@@ -216,8 +216,15 @@ img{
 .team-list {
   display: flex;
   align-items: center;
+  
 }
 
+.team-img{
+  box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.14);
+  margin-top: 50px;
+  border-radius: 4px;
+}
+ 
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -231,7 +238,6 @@ img{
   font-size: 16px;
   letter-spacing: 0.03em;
   line-height: 1.1;
-  
   display: block;
 }
 .team-description {
@@ -243,7 +249,7 @@ img{
 
 .img-wrapper {
   display: block;
-  margin-top: 50px;
+  
 }
 
 .team-img:not(:first-child) {
